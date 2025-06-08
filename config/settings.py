@@ -12,7 +12,7 @@ class Config:
     API_VERSION = 'v1'
     
     # Gemini API settings
-    GEMINI_API_KEY = os.getenv('GEMINI_API_KEY', 'AIzaSyDk-8RIN1xBNt0PUo4uuu-9G4zkbWu3BXg')
+    GEMINI_API_KEY = os.getenv('GEMINI_API_KEY', '')
     GEMINI_MODEL = os.getenv('GEMINI_MODEL', 'gemini-2.0-flash')
     
     # RAG settings
