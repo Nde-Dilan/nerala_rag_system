@@ -1,9 +1,6 @@
 Flask==3.0.0
 Flask-CORS==4.0.0
 google-generativeai==0.3.2
-sentence-transformers==2.2.2
-faiss-cpu==1.7.4
-pandas==2.1.4
-numpy==1.24.3
+huggingface-hub==0.19.4
 python-dotenv==1.0.0
 marshmallow==3.20.1
